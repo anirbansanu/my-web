@@ -8,7 +8,7 @@ export const Header = (props) => {
         <div>
             <nav className="navbar navbar-expand-md navbar-dark bg-transparent ">
                 <div className="container-fluid">
-                <Link className="navbar-brand text-white" to="/" >{props.tittle}</Link>
+                <Link className="navbar-brand text-white" to="/my-web" >{props.tittle}</Link>
 
                 <button className="navbar-toggler outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon "></span>
@@ -16,13 +16,13 @@ export const Header = (props) => {
                 <div className="collapse navbar-collapse text-start" id="navbarTogglerDemo03">
                     <ul className="navbar-nav ms-auto flex-nowrap">
                     <li className="nav-item">
-                        <Link className="nav-link" activeclassname="text-white" aria-current="page" to="/" >Home</Link>
+                        <Link className="nav-link" activeclassname="text-white" aria-current="page" to="/my-web" >Home</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" activeclassname="active" to="/allprojects">Projects</Link>
+                        <Link className="nav-link" activeclassname="active" to="/my-web/allprojects">Projects</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" activeclassname="active" to="/about">About</Link>
+                        <Link className="nav-link" activeclassname="active" to="/my-web/about">About</Link>
                     </li>
                     </ul>
                     {/*props.searchBar? <form className="d-flex">

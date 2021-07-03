@@ -19,16 +19,16 @@ export const ContainerThree = ()=>{
                 <nav>
                 <ul className="nav nav-tabs card-header-tabs justify-content-center">
                 <li className="nav-item">
-                    <Link className="nav-link border-0 nav-warning" activeclassname="active" to="/allprojects">All</Link>
+                    <Link className="nav-link border-0 nav-warning" activeclassname="active" to="/my-web/allprojects">All</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link border-0 nav-warning" activeclassname="active" to="/programmingtab">Program</Link>
+                    <Link className="nav-link border-0 nav-warning" activeclassname="active" to="/my-web/programmingtab">Program</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link border-0 nav-warning" activeclassname="active" to="/scripting">Scripting</Link>
+                    <Link className="nav-link border-0 nav-warning" activeclassname="active" to="/my-web/scripting">Scripting</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link border-0 nav-warning" activeclassname="" to="/webtab">Web</Link>
+                    <Link className="nav-link border-0 nav-warning" activeclassname="" to="/my-web/webtab">Web</Link>
                 </li>
                 </ul>
                 </nav>
@@ -37,19 +37,19 @@ export const ContainerThree = ()=>{
                 <h5 className="card-title text-white">Do Something Here</h5>
                 
                     <Switch>
-                        <Route exact path="/">
+                        <Route exact path="/my-web">
                             <AllProjects/>
                         </Route>
-                        <Route exact path="/allprojects">
+                        <Route exact path="/my-web/allprojects">
                             <AllProjects/>
                         </Route>
-                        <Route exact path="/programmingtab">
+                        <Route exact path="/my-web/programmingtab">
                             <ProgrammingTab />
                         </Route>
-                        <Route exact path="/scripting">
+                        <Route exact path="/my-web/scripting">
                             <ScriptingTab />
                         </Route>
-                        <Route exact path="/webtab">
+                        <Route exact path="/my-web/webtab">
                             <WebTab />
                         </Route>
                         

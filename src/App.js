@@ -18,7 +18,7 @@ function App() {
       <div className="App">
         <Header tittle = "My Web" searchBar={false}/>
         <Switch>
-        <Route exact path="/" render={()=>{
+        <Route exact path="/my-web" render={()=>{
             return(
               <>
                 <ContainerOne/>
@@ -28,7 +28,7 @@ function App() {
             )
           }}/>
 
-          <Route exact path="/about" render={()=>{
+          <Route exact path="/my-web/about" render={()=>{
             return(
               <>
                 <ContainerOne/>
@@ -37,7 +37,7 @@ function App() {
             )
             }}/>
 
-            <Route exact path="/allprojects" render={()=>{
+            <Route exact path="/my-web/allprojects" render={()=>{
             return(
               <>
                 <ContainerThree/>
