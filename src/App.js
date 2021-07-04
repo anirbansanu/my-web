@@ -1,4 +1,4 @@
-import './App.css';
+import './style.css';
 import {Header} from "./Components/Header/Header";
 import {Footer} from "./Components/Footer/Footer";
 import {ContainerOne} from "./Components/Body/ContainerOne";

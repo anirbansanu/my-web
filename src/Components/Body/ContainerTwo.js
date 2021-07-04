@@ -5,13 +5,13 @@ export const ContainerTwo = ()=>{
     return(
         <div className="container-fluid ">
             <div className="row border-primary ">
-                <div className="col-12"><h1 className="text-white">What I Do?</h1></div>
+                <div className="col-12 text-center"><h1 className="text-white">What I Do?</h1></div>
                 <div className="col-md-6 border-success p-0">
                     <img className="d-block w-100 vh-85" src={Web} alt="Carousel Block" />
                 </div>
                 <div className="col-md-6  p-0">
                     <div className="card d-cl text-white mb-3" >
-                        <div className="card-header"><h1>Web Development</h1></div>
+                        <div className="card-header text-center bg-primary"><h1>Web Development</h1></div>
                         <div className="card-body">
                         <div className="card-title">
                             
