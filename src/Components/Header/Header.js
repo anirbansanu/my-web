@@ -22,7 +22,10 @@ export const Header = (props) => {
                         <Link className="nav-link" activeclassname="active" to="/my-web/allprojects">Projects</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" activeclassname="active" to="/my-web/about">About</Link>
+                        <Link className="nav-link" activeclassname="active" to="/my-web/resume">Resume</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link className="nav-link" activeclassname="active" to="/my-web/contact">Contact</Link>
                     </li>
                     </ul>
                     {/*props.searchBar? <form className="d-flex">

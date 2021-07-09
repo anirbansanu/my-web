@@ -9,13 +9,16 @@ import {
   import { ProgrammingTab } from './ProgrammingTab';
   import { WebTab } from './WebTab';
   import { ScriptingTab } from './ScriptingTab';
+  
+
+  
 
 export const ContainerThree = ()=>{
     
     return(
         <Router>
-        <div className="card bg-transparent text-center">
-            <div className="card-header ">
+        <div className="card bg-transparent text-center overflow-hidden">
+            <div className="card-header">
                 <nav>
                 <ul className="nav nav-tabs card-header-tabs justify-content-center">
                 <li className="nav-item">
@@ -34,7 +37,7 @@ export const ContainerThree = ()=>{
                 </nav>
             </div>
             <div className="card-body">
-                <h5 className="card-title text-white">Do Something Here</h5>
+                <h5 className="card-title  p-3"> </h5>
                 
                     <Switch>
                         <Route exact path="/my-web">
@@ -51,6 +54,9 @@ export const ContainerThree = ()=>{
                         </Route>
                         <Route exact path="/my-web/webtab">
                             <WebTab />
+                        </Route>
+                        <Route exact path="/">
+                            <AllProjects/>
                         </Route>
                         
                     </Switch>

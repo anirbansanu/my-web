@@ -3,26 +3,52 @@ import { ProjectCardItem } from './ProjectCardItem';
 import hacking from "../../assets/iconImgs/hacking.gif";
 import allinone from "../../assets/iconImgs/htmlcssjavascript.png";
 import reactproject from "../../assets/iconImgs/reactproject.png";
+import htmlcssjsphp from "../../assets/iconImgs/htmlcssjsphpmdb.png";
+
 
 
 export const ScriptingTab = (props)=>{
     return(
             <div className="row justify-content-center ">
                 <div className="col-md-6 col-lg-4 p-3">
-                    <ProjectCardItem imgUrl={allinone} tittle="Project1" badges={["c++","html","css","javascript"]} desc="A webapp to visualize Neural Networks based on no. of layers and neurons, calculate Loss and understand math behind Back Propagation algo." />
+                    <ProjectCardItem
+                        imgUrl={htmlcssjsphp} 
+                        tittle="LMail" 
+                        badges={["html","css","javascript","php","mariaDB"]} 
+                        projectLink="https://anitechtime.000webhostapp.com/lock-mail/mail/user/log-in.php" 
+                        githubLink="https://anitechtime.000webhostapp.com/lock-mail/mail/user/log-in.php" 
+                        desc="This is mail system which is based on web , it's allow user to send mail for communication." 
+                    />
                 </div>
                 <div className="col-md-6 col-lg-4 p-3">
-                    <ProjectCardItem imgUrl={reactproject} tittle="Web Project" badges={["c++","html","css","javascript"]} desc="A webapp to visualize Neural Networks based on no. of layers and neurons, calculate" />
+                    <ProjectCardItem 
+                        imgUrl={reactproject} 
+                        tittle="ToDo" 
+                        badges={["html","css","javascript","React"]} 
+                        projectLink="https://anirbansanu.github.io/Todo/" 
+                        githubLink="https://github.com/anirbansanu/Todo" 
+                        desc="use Todo when you have a deadline, NEED to focus, prioritize and get things done quickly–from home or school projects, to dozens of work tasks–with sub-tasks and projects." 
+                    />
                 </div>
                 <div className="col-md-6 col-lg-4 p-3">
-                    <ProjectCardItem imgUrl={hacking} tittle="Py Project" badges={["c++","html","css","javascript"]}  desc="A webapp to visualize Neural Networks based on no. of layers and neurons, calculate"/>
+                    <ProjectCardItem imgUrl={hacking} 
+                        tittle="Backdoor" 
+                        badges={["python","pycharm"]}  
+                        projectLink="https://github.com/anirbansanu/Hacking" 
+                        githubLink="https://github.com/anirbansanu/Hacking" 
+                        desc="Backdoor is windows app that provides hidden method for obtaining remote access to a computer or other system."
+                    />
                 </div>
                 <div className="col-md-6 col-lg-4 p-3">
-                    <ProjectCardItem imgUrl="../../assets/Imgs/web.png" tittle="C++ Project" badges={["c++","html","css","javascript"]}  desc="A python streamlit webapp to automate generating and uploading youtube thumbnails using Youtube v3 API"/>
+                    <ProjectCardItem imgUrl={allinone} 
+                        tittle="Heart"
+                        badges={["html","css","javascript"]} 
+                        projectLink="https://anitechtime.000webhostapp.com/heart.html" 
+                        githubLink="https://anitechtime.000webhostapp.com/heart.html" 
+                        desc="A Simple animated reaction web app called heart, who react based on input text." 
+                    />
                 </div>
-                <div className="col-md-6 col-lg-4 p-3">
-                    <ProjectCardItem imgUrl="../../assets/Imgs/web.png" tittle="C++ Project" badges={["c++","html","css","javascript"]}  desc="A python streamlit webapp to automate generating and uploading youtube thumbnails"/>
-                </div>
+                
             </div>
     )
 }

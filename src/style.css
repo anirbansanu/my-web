@@ -2,10 +2,36 @@
     margin:0;
     padding:0;
 }
-
+*,::after,::before{box-sizing:border-box}
 body
 {
     background-color: rgb(0, 0, 0);
+}
+.font-style
+{
+    font-family:monospace;
+}
+.text-vio
+{
+    color: rgb(202 140 253);
+}
+.bg-vio
+{
+    background-color: rgb(100, 8, 175);
+    color:rgb(247, 243, 243);
+}
+.bg-pink
+{
+    background-color: rgb(228, 51, 213);
+}
+.bg-light-info
+{
+    color: rgb(3, 3, 3);
+    background-color: rgb(106, 206, 252);
+}
+.bg-light-danger
+{
+    background-color: rgb(238, 93, 93);
 }
 .vh-85
 {
@@ -68,6 +94,70 @@ body
 {
     background-color:rgba(231, 38, 231, 0.151);
 }
+.contact .info i {
+    font-size: 20px;
+    color: #ffee00;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.contact .info i:hover {
+    color: #3afce2;
+}
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+.section-title h2::after {
+    content: '';
+    position: absolute;
+    display: block;
+    justify-content: center;
+    width: 50px;
+    height: 3px;
+    background: #f0de41;
+    bottom: 0;
+    left: calc(50% - 25px);
+  }
+  
+.resume .resume-title {
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #f9fc59;
+}
+.resume .resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #f0de41;
+    position: relative;
+}
+.resume .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #f0de41;
+}
+
 /* X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap*/
 
@@ -101,6 +191,10 @@ body
     }
     .vh-90{
         min-height: 60vh;
+    }
+    .nav-warning
+    {
+        font-size: large;
     }
  }
 

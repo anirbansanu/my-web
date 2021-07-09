@@ -1,22 +1,27 @@
 import React from 'react';
 import { ProjectCardItem } from './ProjectCardItem';
-import hacking from "../../assets/iconImgs/hacking.gif";
-import allinone from "../../assets/iconImgs/htmlcssjavascript.png";
-import reactproject from "../../assets/iconImgs/reactproject.png";
 
+import cpp from "../../assets/iconImgs/cppdatabase.gif";
+import arduino from "../../assets/iconImgs/arduino.gif";
+import esp8266 from "../../assets/iconImgs/8266.gif";
 
 export const ProgrammingTab = (props)=>{
     return(
             <div className="row justify-content-center ">
                 
                 <div className="col-md-6 col-lg-4 p-3">
-                    <ProjectCardItem imgUrl={hacking} tittle="Py Project" badges={["c++","html","css","javascript"]}  desc="A webapp to visualize Neural Networks based on no. of layers and neurons, calculate"/>
+                    <ProjectCardItem 
+                    imgUrl={esp8266} tittle="Automation " 
+                    badges={["ESP8266","Arduino","java","firebase"]} 
+                    projectLink="" 
+                    githubLink="" 
+                    desc="This is module based Automation project that provides control with wifi and internet enabled devices "/>
                 </div>
                 <div className="col-md-6 col-lg-4 p-3">
-                    <ProjectCardItem imgUrl={allinone} tittle="C++ Project" badges={["c++","html","css","javascript"]}  desc="A python streamlit webapp to automate generating and uploading youtube thumbnails using Youtube v3 API"/>
+                    <ProjectCardItem imgUrl={cpp} tittle="DBLite" badges={["c++","vscode"]} projectLink="https://github.com/anirbansanu/DBLite" githubLink="https://github.com/anirbansanu/DBLite" desc="DBLite is a C++ language library that provides a lightweight disk-based database that doesn't require a separate server process"/>
                 </div>
                 <div className="col-md-6 col-lg-4 p-3">
-                    <ProjectCardItem imgUrl={reactproject} tittle="C++ Project" badges={["c++","html","css","javascript"]}  desc="A python streamlit webapp to automate generating and uploading youtube thumbnails"/>
+                    <ProjectCardItem imgUrl={arduino} tittle="Home Automation" badges={["Arduino","java","Android"]} projectLink="" githubLink="" desc="Home Automation project demonstrates a simple system that allows the user to control it with bluetooth enabled wireless device "/>
                 </div>
             </div>
     )
