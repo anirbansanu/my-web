@@ -1,10 +1,13 @@
+import { Namaste } from "./StrokeItem"
 export const Resume = ()=>{
     return(
         <div id="resume" className="resume p-2 mt-5 text-white">
             <div className="container" data-aos="fade-up">
 
                 <div className="section-title text-center">
-                    <h2>Resume</h2>
+                    <div className="h2">
+                        <Namaste tittle="RESUME"/>
+                    </div>
                     <p>Wish to build up my career in the organization 
                         where I can enrich my knowledge more and 
                         enjoy the growth of the organization by 

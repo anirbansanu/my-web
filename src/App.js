@@ -35,6 +35,7 @@ function App() {
               <>
                 <ContainerOne/>
                 <ContainerTwo/>
+                <Resume/>
                 <ContainerThree/>
               </>
             )

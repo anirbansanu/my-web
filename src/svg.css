@@ -1,0 +1,43 @@
+.svg-font{
+    position: relative;
+    font-family: monospace;
+    font-weight: 800;
+}
+.svg-txt{
+    width: 100%;
+    margin-bottom: -25px;
+    justify-content: left;
+    margin-bottom: -70px;
+}
+
+.svg-txt text{
+    font-size: 5.6rem;
+    fill: rgba(182, 182, 182, 0.2);
+    stroke-width: 3px;
+    stroke: rgb(2, 255, 44);
+    stroke-linejoin: round;
+    stroke-dasharray: 80;
+    animation: ani 1s linear infinite;
+
+}
+@keyframes ani{
+    25%{
+        stroke: darkorange;
+    }
+    50%{
+        stroke: rgb(239, 255, 17);
+    }
+    75%{
+        stroke: rgb(73, 33, 253);
+    }
+    100%{
+        stroke: rgb(213, 22, 252);
+        stroke-dashoffset: 160;
+    }
+}
+
+@media (max-width: 575.98px) { 
+    .svg-txt text{
+        font-size: 3.6rem;;
+    }
+ }

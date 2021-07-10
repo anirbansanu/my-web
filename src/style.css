@@ -113,7 +113,7 @@ body
     text-align: center;
     padding-bottom: 30px;
 }
-.section-title h2 {
+.section-title .h2 {
     font-size: 32px;
     font-weight: bold;
     text-transform: uppercase;
@@ -121,7 +121,7 @@ body
     padding-bottom: 20px;
     position: relative;
   }
-.section-title h2::after {
+.section-title .h2::after {
     content: '';
     position: absolute;
     display: block;
