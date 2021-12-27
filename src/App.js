@@ -35,8 +35,9 @@ function App() {
               <>
                 <ContainerOne/>
                 <ContainerTwo/>
-                <Resume/>
-                <ContainerThree/>
+                <Resume tittle="Project"/>
+                <ContainerThree tittle="Project"/>
+                
               </>
             )
           }}/>
@@ -53,7 +54,7 @@ function App() {
             <Route exact path="/my-web/allprojects" render={()=>{
             return(
               <>
-                <ContainerThree/>
+                <ContainerThree tittle="Project"/>
                 
               </>
             )
@@ -61,7 +62,7 @@ function App() {
             <Route exact path="/my-web/resume" render={()=>{
             return(
               <>
-                <Resume/>
+                <Resume tittle="Resume1"/>
               </>
             )
             }}/>  

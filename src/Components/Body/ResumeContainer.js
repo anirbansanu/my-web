@@ -1,12 +1,12 @@
-import { Namaste } from "./StrokeItem"
+import { ResumeSvg } from "./StrokeItem"
 export const Resume = ()=>{
     return(
-        <div id="resume" className="resume p-2 mt-5 text-white">
+        <div id="resume" className="resume p-2 mt-5 text-white mb-5">
             <div className="container" data-aos="fade-up">
 
                 <div className="section-title text-center">
                     <div className="h2">
-                        <Namaste tittle="RESUME"/>
+                        <ResumeSvg/>
                     </div>
                     <p>Wish to build up my career in the organization 
                         where I can enrich my knowledge more and 
@@ -65,8 +65,8 @@ export const Resume = ()=>{
                     <div className="resume-item">
                     <h4 className="text-vio">Backdoor</h4>
                     <h5>Remote access Victim pc</h5>
-                    <p><em>using <span class="mx-1 badge bg-vio">python</span>
-                                <span class="mx-1 badge bg-warning text-dark">pycharm</span></em></p>
+                    <p><em>using <span className="mx-1 badge bg-vio">python</span>
+                                <span className="mx-1 badge bg-warning text-dark">pycharm</span></em></p>
                     <p>
                     </p><ul>
                         <li>Backdoor is windows app that provides hidden method for obtaining remote access to a computer or other system.</li>

@@ -42,8 +42,17 @@ export const AllProjects = (props)=>{
                 </div>
                 <div className="col-md-6 col-lg-4 p-3">
                     <ProjectCardItem 
-                        imgUrl={esp8266} tittle="Automation " 
+                        imgUrl={esp8266} tittle="C19 Tracker " 
                         badges={["ESP8266","Arduino","java","firebase"]} 
+                        projectLink="" 
+                        githubLink="" 
+                        desc="C19-tracker is COVID Tracking Project collects and publishes the most complete Active, Affected, Testing and Vaccinated data available for India states and territories. "
+                    />
+                </div>
+                <div className="col-md-6 col-lg-4 p-3">
+                    <ProjectCardItem 
+                        imgUrl={esp8266} tittle="Automation " 
+                        badges={["ReactJS","SETU API's"]} 
                         projectLink="" 
                         githubLink="" 
                         desc="This is module based Automation project that provides control with wifi and internet enabled devices "
@@ -68,6 +77,7 @@ export const AllProjects = (props)=>{
                         desc="A Simple animated reaction web app called heart, who react based on input text." 
                     />
                 </div>
+                
             </div>
     )
 }

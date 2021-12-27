@@ -22,7 +22,7 @@ export const ContainerOne = ()=>{
                         <div className="card bg-transparent text-white" >
                             <div className="card-text">
                                 <h3>I am a full-stack web <span className="badge bg-t-success border border-success">Developer <span className="badge bg-success">NOUN</span></span></h3>
-                                <h3>Who can handle both <span className="badge bg-t-pink border border-danger">front and back-end <span className="badge bg-danger">VERB</span></span></h3>
+                                <h3>Able to handle both <span className="badge bg-t-pink border border-danger">front and back-end <span className="badge bg-danger">VERB</span></span></h3>
                                 <h3>components of <span className="badge bg-t-warning border border-warning">Web Design <span className="badge bg-warning text-dark">SKILL</span></span></h3>
                             </div>
                         </div>

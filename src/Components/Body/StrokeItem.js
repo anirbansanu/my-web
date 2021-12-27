@@ -1,13 +1,25 @@
 import "../../svg.css";
 
-export const Namaste = (props)=>{
+export const ResumeSvg = ()=>{
     return(
         <h2 className=" ">
-                <svg class="svg-txt text-start">
+                <svg className="svg-txt ">
                     <symbol id="text">
-                        <text text-anchor="middle" x="50%" y="50%">{props.tittle} </text>
+                        <text textAnchor="middle" x="50%" y="50%" >RESUME</text>
                     </symbol>
                     <use xlinkHref="#text"></use>
+                </svg>
+            </h2>
+    )
+}
+export const ProjectSvg = ()=>{
+    return(
+        <h2 className="mt-5">
+                <svg className="svg-txt text-start">
+                    <symbol id="text1">
+                        <text textAnchor="middle" x="50%" y="50%">PROJECTS</text>
+                    </symbol>
+                    <use xlinkHref="#text1"></use>
                 </svg>
             </h2>
     )

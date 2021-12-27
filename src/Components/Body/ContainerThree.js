@@ -9,7 +9,7 @@ import {
   import { ProgrammingTab } from './ProgrammingTab';
   import { WebTab } from './WebTab';
   import { ScriptingTab } from './ScriptingTab';
-  
+  import { ProjectSvg } from './StrokeItem';
 
   
 
@@ -17,7 +17,13 @@ export const ContainerThree = ()=>{
     
     return(
         <Router>
-        <div className="card bg-transparent text-center overflow-hidden">
+            
+        <div className="card bg-transparent text-center overflow-hidden" data-aos="fade-up">
+            <div className="card-title">
+                    <div className="h2">
+                        <ProjectSvg/>
+                    </div>
+            </div>
             <div className="card-header">
                 <nav>
                 <ul className="nav nav-tabs card-header-tabs justify-content-center">
