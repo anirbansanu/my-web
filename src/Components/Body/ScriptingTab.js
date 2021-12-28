@@ -11,6 +11,24 @@ export const ScriptingTab = (props)=>{
     return(
             <div className="row justify-content-center ">
                 <div className="col-md-6 col-lg-4 p-3">
+                    <ProjectCardItem 
+                        imgUrl={reactproject} tittle="C19 Tracker" 
+                        badges={["ReactJS","SETU API's"]} 
+                        projectLink="https://anirbansanu.github.io/c19-tracker/" 
+                        githubLink="https://github.com/anirbansanu/c19-tracker" 
+                        desc="C19-tracker is COVID Tracking Project collects and publishes the most complete Active, Affected, Testing and Vaccinated data available for India states and territories. "
+                    />
+                </div>
+                <div className="col-md-6 col-lg-4 p-3">
+                    <ProjectCardItem 
+                        imgUrl={reactproject} tittle="Card Library" 
+                        badges={["ReactJS","bootstrap"]} 
+                        projectLink="https://anirbansanu.github.io/card/" 
+                        githubLink="https://github.com/anirbansanu/card" 
+                        desc="This is a library that allows your user to minimize, maximize and close your HTML elements. You can choose which of the previous interactions are allowed."
+                    />
+                </div>
+                <div className="col-md-6 col-lg-4 p-3">
                     <ProjectCardItem
                         imgUrl={htmlcssjsphp} 
                         tittle="LMail" 

@@ -13,6 +13,24 @@ export const AllProjects = (props)=>{
             <div className="row justify-content-center ">
                 <div className="col-md-6 col-lg-4 p-3">
                     <ProjectCardItem 
+                        imgUrl={reactproject} tittle="C19 Tracker" 
+                        badges={["ReactJS","SETU API's"]} 
+                        projectLink="https://anirbansanu.github.io/c19-tracker/" 
+                        githubLink="https://github.com/anirbansanu/c19-tracker" 
+                        desc="C19-tracker is COVID Tracking Project collects and publishes the most complete Active, Affected, Testing and Vaccinated data available for India states and territories. "
+                    />
+                </div>
+                <div className="col-md-6 col-lg-4 p-3">
+                    <ProjectCardItem 
+                        imgUrl={reactproject} tittle="Card Library" 
+                        badges={["ReactJS","bootstrap"]} 
+                        projectLink="https://anirbansanu.github.io/card/" 
+                        githubLink="https://github.com/anirbansanu/card" 
+                        desc="This is a library that allows your user to minimize, maximize and close your HTML elements. You can choose which of the previous interactions are allowed."
+                    />
+                </div>
+                <div className="col-md-6 col-lg-4 p-3">
+                    <ProjectCardItem 
                         imgUrl={reactproject} 
                         tittle="ToDo" 
                         badges={["html","css","javascript","React"]} 
@@ -31,6 +49,16 @@ export const AllProjects = (props)=>{
                     />
                 </div>
                 <div className="col-md-6 col-lg-4 p-3">
+                    <ProjectCardItem 
+                        imgUrl={allinone} 
+                        tittle="Btn-Eff" 
+                        badges={["css"]} 
+                        projectLink="https://anitechtime.000webhostapp.com/css-libs/btn-eff/index.html" 
+                        githubLink="https://github.com/anirbansanu/btn-eff" 
+                        desc="This is mail system which is based on web , it's allow user to send mail for communication." 
+                    />
+                </div>
+                <div className="col-md-6 col-lg-4 p-3">
                     <ProjectCardItem
                         imgUrl={htmlcssjsphp} 
                         tittle="LMail" 
@@ -40,15 +68,7 @@ export const AllProjects = (props)=>{
                         desc="This is mail system which is based on web , it's allow user to send mail for communication." 
                     />
                 </div>
-                <div className="col-md-6 col-lg-4 p-3">
-                    <ProjectCardItem 
-                        imgUrl={esp8266} tittle="C19 Tracker " 
-                        badges={["ReactJS","SETU API's"]} 
-                        projectLink="" 
-                        githubLink="" 
-                        desc="C19-tracker is COVID Tracking Project collects and publishes the most complete Active, Affected, Testing and Vaccinated data available for India states and territories. "
-                    />
-                </div>
+                
                 <div className="col-md-6 col-lg-4 p-3">
                     <ProjectCardItem 
                         imgUrl={esp8266} tittle="Automation " 
@@ -64,9 +84,6 @@ export const AllProjects = (props)=>{
                 <div className="col-md-6 col-lg-4 p-3">
                     <ProjectCardItem imgUrl={arduino} tittle="Home Automation" badges={["Arduino","java","Android"]} projectLink="" githubLink="" desc="Home Automation project demonstrates a simple system that allows the user to control it with bluetooth enabled wireless device "/>
                 </div>
-                
-                
-                
                 
                 <div className="col-md-6 col-lg-4 p-3">
                     <ProjectCardItem imgUrl={allinone} 

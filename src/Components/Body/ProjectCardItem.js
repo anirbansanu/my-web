@@ -9,7 +9,7 @@ export const ProjectCardItem = (props)=>{
         <div className="card bg-transparent text-white h-100" > 
             <img src={props.imgUrl} className="card-img-top h-50" alt="NoImage"/>
             <div className="card-body">
-                <h5 className="card-title">{props.tittle}
+                <h5 className="card-title"><b>{props.tittle}</b>
                     
                         {
                             props.projectLink?<span className="p-1"><a href={props.projectLink}><img src={ExLink24} alt="Link"/></a>
