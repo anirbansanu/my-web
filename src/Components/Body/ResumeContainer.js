@@ -33,13 +33,13 @@ export const Resume = ()=>{
                     <h3 className="resume-title">Education</h3>
                     <div className="resume-item">
                     <h4 className="text-vio">Diploma in Computer Science &amp; Technology</h4>
-                    <h5>2015 - 2016</h5>
+                    <h5>2016 - 2019</h5>
                     <p><em>Luthfaa Polytechnic Institute</em></p>
                     <p> I had completed my diploma in Computer Science and Technology with 77.8 % from Luthfaa Polytechnic Institute , which is certified by A.I.C.T.E.</p>
                     </div>
                     <div className="resume-item">
                     <h4 className="text-vio">Bachelor of Technology in C.S.E</h4>
-                    <h5>2016 - 2022</h5>
+                    <h5>2019 - 2022</h5>
                     <p><em>Durgapur Institute of Advanced Technology &amp; Management</em></p>
                     <p> Now I am pursuing B.Tech. in Computer Science and Technology </p>
                     </div>
