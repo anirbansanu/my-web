@@ -1,7 +1,7 @@
 export const data = [
     {
         type: ['web','script'],
-        imgPath:"images/reactProject.png",
+        imgPath:"https://anitechtime.000webhostapp.com/my-web/images/reactProject.png",
         tittle:"C19 Tracker",
         badges:["ReactJS","SETU API's"],
         projectLink:"https://anirbansanu.github.io/c19-tracker/", 
@@ -10,7 +10,7 @@ export const data = [
     },
     {
         type: ['web','script'],
-        imgPath:"images/reactProject.png",
+        imgPath:"https://anitechtime.000webhostapp.com/my-web/images/reactProject.png",
         tittle:"Card Library",
         badges:["html","css","javascript","React"],
         projectLink:"https://anirbansanu.github.io/card/" ,
@@ -19,7 +19,7 @@ export const data = [
     },
     {
         type: ['web','script'],
-        imgPath:"images/reactProject.png",
+        imgPath:"https://anitechtime.000webhostapp.com/my-web/images/reactProject.png",
         tittle:"ToDo",
         badges:["html","css","javascript","React"],
         projectLink:"https://anirbansanu.github.io/Todo/",
@@ -28,7 +28,7 @@ export const data = [
     },
     {
         type: ['script'],
-        imgPath:"images/hacking.gif",
+        imgPath:"https://anitechtime.000webhostapp.com/my-web/images/hacking.gif",
         tittle:"Backdoor",
         badges:["python","pycharm"],
         projectLink:"https://github.com/anirbansanu/Hacking",
@@ -37,7 +37,7 @@ export const data = [
     },
     {
         type: ['web'],
-        imgPath:"images/allinone.png",
+        imgPath:"https://anitechtime.000webhostapp.com/my-web/images/allinone.png",
         tittle:"Btn-Eff",
         badges:["css"],
         projectLink:"https://anitechtime.000webhostapp.com/css-libs/btn-eff/index.html",
@@ -46,7 +46,7 @@ export const data = [
     },
     {
         type: ['web','script'],
-        imgPath:"images/htmlcssjsphp.png",
+        imgPath:"https://anitechtime.000webhostapp.com/my-web/images/htmlcssjsphp.png",
         tittle:"LMail",
         badges:["html","css","javascript","php","mariaDB"],
         projectLink:"https://anitechtime.000webhostapp.com/lock-mail/mail/user/log-in.php",
@@ -55,7 +55,7 @@ export const data = [
     },
     {
         type: ['program'],
-        imgPath:"images/esp8266.gif",
+        imgPath:"https://anitechtime.000webhostapp.com/my-web/images/esp8266.gif",
         tittle:"Automation",
         badges:["ESP8266","Arduino","java","firebase"],
         projectLink:"", 
@@ -64,7 +64,7 @@ export const data = [
     },
     {
         type: ['program'],
-        imgPath:"images/cpp.gif",
+        imgPath:"https://anitechtime.000webhostapp.com/my-web/images/cpp.gif",
         tittle:"DBLite",
         badges:["c++","vscode"],
         projectLink:"https://github.com/anirbansanu/DBLite",
@@ -73,7 +73,7 @@ export const data = [
     },
     {
         type: ['program'],
-        imgPath:"images/arduino.gif",
+        imgPath:"https://anitechtime.000webhostapp.com/my-web/images/arduino.gif",
         tittle:"Home Automation",
         badges:["Arduino","java","Android"],
         projectLink:"", 
@@ -82,7 +82,7 @@ export const data = [
     },
     {
         type: ['web','script'],
-        imgPath:"images/allinone.png",
+        imgPath:"https://anitechtime.000webhostapp.com/my-web/images/allinone.png",
         tittle:"Heart",
         badges:["html","css","javascript"],
         projectLink:"https://anitechtime.000webhostapp.com/heart.html" ,
