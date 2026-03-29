@@ -19,7 +19,7 @@ export const ProjectCardItem = (props)=>{
                         }
                         
                     </h5>
-                {props.badges.map((badge) => <span className={"mx-1 "+colors[Math.floor(Math.random()*colors.length)]}>{badge}</span>)}
+                {props.badges.map((badge, idx) => <span key={idx} className={"mx-1 "+colors[Math.floor(Math.random()*colors.length)]}>{badge}</span>)}
                 <p className="card-text">{props.desc}</p>
                 <div className="card-text"></div>
             </div>
